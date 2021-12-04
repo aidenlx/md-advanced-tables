@@ -1,6 +1,6 @@
 {
-  "name": "@tgrosinger/md-advanced-tables",
-  "version": "3.7.0",
+  "name": "@aidenlx/md-advanced-tables",
+  "version": "0.0.0",
   "description": "A text editor independent library for advanced manipulation, formatting, and spreadsheets in markdown tables.",
   "keywords": [
     "markdown",
@@ -25,14 +25,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tgrosinger/md-advanced-tables.git"
+    "url": "git+https://github.com/aidenlx/md-advanced-tables.git"
   },
   "author": {
-    "name": "Tony Grosinger",
-    "email": "tony@grosinger.net",
-    "url": "https://github.com/tgrosinger"
+    "name": "AidenLx",
+    "email": "aiden.lx@outlook.com",
+    "url": "https://github.com/aidenlx"
   },
   "contributors": [
+    {
+      "name": "Tony Grosinger",
+      "email": "tony@grosinger.net",
+      "url": "https://github.com/tgrosinger"
+    },
     {
       "name": "Susisu",
       "email": "susisu2413@yahoo.co.jp",
@@ -41,9 +46,9 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/tgrosinger/md-advanced-tables/issues"
+    "url": "https://github.com/aidenlx/md-advanced-tables/issues"
   },
-  "homepage": "https://github.com/tgrosinger/md-advanced-tables#readme",
+  "homepage": "https://github.com/aidenlx/md-advanced-tables#readme",
   "devDependencies": {
     "@types/chai": "4.2.14",
     "@types/expect": "24.3.0",
@@ -52,6 +57,7 @@
     "@typescript-eslint/eslint-plugin": "4.6.1",
     "@typescript-eslint/parser": "4.6.1",
     "chai": "4.2.0",
+    "cz-conventional-changelog": "^3.3.0",
     "esdoc-importpath-plugin": "^1.0.2",
     "eslint": "7.14.0",
     "eslint-plugin-chai-friendly": "0.6.0",
@@ -68,5 +74,10 @@
     "ebnf": "1.9.0",
     "lodash": "4.17.20",
     "meaw": "5.0.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
